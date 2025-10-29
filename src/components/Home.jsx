@@ -72,7 +72,7 @@ function Home() {
             {/*Buttons*/}
             <button
               onClick={clearInput}
-              className={`${buttonStyle} bg-yellow-300`}
+              className={`${buttonStyle} bg-yellow-400`}
             >
               C
             </button>
