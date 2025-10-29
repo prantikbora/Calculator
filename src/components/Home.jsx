@@ -1,4 +1,4 @@
-import { Delete, Divide } from "lucide-react";
+import { Delete} from "lucide-react";
 import { useState, useEffect} from "react";
 import { evaluate } from "mathjs";
 
@@ -84,7 +84,7 @@ function Home() {
               %
             </button>
             <button onClick={() => handleClick("/")} className={buttonStyle}>
-              <Divide />
+              /
             </button>
             {/* Number and Operator Buttons */}
             {[7, 8, 9,"*", 4, 5, 6, "-", 1, 2, 3, "+"].map((item, i) => (
